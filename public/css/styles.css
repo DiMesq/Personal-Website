@@ -5,8 +5,21 @@ body{
 small{
   font-size: 0.6em;
 }
+
+#social ul{
+  list-style-type: none;
+}
+
+#social li{
+  display: inline;
+  padding-right: 10px; 
+}
+#social a{
+  color: black;
+}
 #name{
   font-size: 0.8em;
+  font-family: 'Glegoo', serif;
   text-shadow: 0.3px 0.3px 0.6px #000000
 }
 
@@ -16,6 +29,12 @@ small{
   -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.7);
   -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .7);
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .7);
+}
+
+.center{
+  position: relative;
+  width: 80%;
+  margin: auto;
 }
 
 /* make sidebar nav vertical */ 
