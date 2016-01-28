@@ -15,14 +15,14 @@ $about = "<p>Hello! As you might have noticed I am studying computer science! Pe
 		  that right now dedicating my time to Computer Science and concretely Machine Learing is what 
 		  will provide me the best chances of doing so.</p>";
 
-$activities = "<p>Currently I am a BSc student in Computer Science at Instituto 
-				Superior Técnico (IST) in Lisbon, Portugal.</p>
+$activities = "<p>Currently I am a BSc student in Computer Science at <a href='http://tecnico.ulisboa.pt/'>Instituto 
+				Superior Técnico</a> (IST) in Lisbon, Portugal.</p>
 			   
 			   <p>Besides that, I am also a member of <a href='http://junitec.ist.utl.pt/' target='_blank'>JUNITEC</a>
 			    which is IST's junior enterprise. There we develop projects in a lot
 			    of different areas of engineering.</p>
 
-			    <p>To finish, I am a member of IEEE and of IST's IEEE student branch, where I am the Vice-Chair
+			    <p>To finish, I am a member of IEEE and of <a href='http://www.ieee-ist.org/'>IST's IEEE Student Branch</a>, where I am the Vice-Chair
 			    of the Computer Society.";
 
 $past = "<p>Some past stuff.</p>";
