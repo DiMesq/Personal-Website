@@ -10,7 +10,6 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="css/bootstrap-social.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:bold' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'>
