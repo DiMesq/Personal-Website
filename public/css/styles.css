@@ -2,6 +2,22 @@ body{
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 }
 
+small{
+  font-size: 0.6em;
+}
+#name{
+  font-size: 0.8em;
+  text-shadow: 0.3px 0.3px 0.6px #000000
+}
+
+#my_image img{
+  border-radius: 60px;
+  border-style: inset;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.7);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .7);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .7);
+}
+
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
@@ -25,9 +41,9 @@ body{
 }
 
 .jumbotron{
-	background-color:#b3ffb3;
-	opacity: 0.9;
-
+	background-color:#993333;
+	opacity: 1;
+  color: black;
 }
 
 .longTextFont{
