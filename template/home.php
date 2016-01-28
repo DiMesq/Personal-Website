@@ -31,8 +31,8 @@
               <li class="active"><a role="button" href="#aboutMe" data-toggle="collapse" aria-controls="aboutMe" aria-expanded="true">About</a></li>
               <li><a role="button" href="#activities" data-toggle="collapse" aria-contrlos="activities" aria-expanded="false">Current activities</a></li>
               <li><a role="button" href="#projects" data-toggle="collapse" aria-controls="projects" aria-expanded="false">Projects</a></li>
-              <li><a href="#">Past</a></li>
-              <li><a href="#">Other</a></li>
+              <li><a role="button" href="#past"data-toggle="collapse" aria-controls="projects" aria-expanded="false">Past</a></li>
+              <li><a role="button" href="#other" data-toggle="collapse" aria-controls="projects" aria-expanded="false">Other</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -81,11 +81,19 @@
               </div>
             </div>
           </div>
+          <div class="collapse" id="past">
+            <h2>Past</h2>
+            <div class="longTextFont"><?=$past?></div>
+          </div>
+          <div class="collapse" id="other">
+            <h2>Other</h2>
+            <div class="longTextFont"><?=$other?></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<script type="text/javascript" src="js/collapse_from_navbar"></script>
+<script type="text/javascript" src="js/collapse_from_navbar.js"></script>
 
     
