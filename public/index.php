@@ -24,8 +24,8 @@ $activities = "<p>Currently I am a BSc student in Computer Science at Instituto
 
 			    <p>To finish, I am a member of IEEE and of IST's IEEE student branch, where I am the Vice-Chair
 			    of the Computer Society.";
-			    
-render("home.php", NULL, ["about"=>$about, "activities"=>$activities]);
+
+render("home.php", ["about"=>$about, "activities"=>$activities]);
 
 ?>
 

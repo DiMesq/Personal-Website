@@ -8,7 +8,7 @@
  *
  * No return value.
  */
-function render ($template, $navbar, $values=[]){
+function render ($template, $values=[]){
 
 	if (file_exists("../template/$template")){
 
@@ -16,8 +16,6 @@ function render ($template, $navbar, $values=[]){
 		extract($values);
 
 		require_once("../template/header.php");
-
-		require_once("../template/$navbar");
 
 		require_once("../template/$template");
 
