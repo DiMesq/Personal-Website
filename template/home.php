@@ -28,7 +28,7 @@
           </div>
           <div class="navbar-collapse collapse sidebar-navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a role="button" href="#aboutMe" data-toggle="collapse" aria-controls="aboutMe" aria-expanded="false">About</a></li>
+              <li class="active"><a role="button" href="#aboutMe" data-toggle="collapse" aria-controls="aboutMe" aria-expanded="true">About</a></li>
               <li><a role="button" href="#activities" data-toggle="collapse" aria-contrlos="activities" aria-expanded="false">Current activities</a></li>
               <li><a role="button" href="#projects" data-toggle="collapse" aria-controls="projects" aria-expanded="false">Projects</a></li>
               <li><a href="#">Past</a></li>
@@ -41,7 +41,7 @@
     <div class="col-sm-9">
       <div class="row row-content">
         <div class="col-xs-12 col-sm-9 col-sm-push-2">
-          <div class="collapse" id="aboutMe">
+          <div class="collapse in" id="aboutMe">
             <h2>About Me</h2>
             <div class="longTextFont"><?=$about?></div>
           </div>
