@@ -2,12 +2,12 @@
   <div class="container">
     <div class="row row-header">
       <div class="col-xs-12 col-sm-8">
-        <h1>Diogo Mesquita</h1>
-        <p style="padding:10px;"></p>
-        <p>Computer Science student</p>
+        <h1><div id="name"> Diogo Mesquita</div></h1>
+        <p style="padding:5px;"></p>
+        <p><small>Computer Science student @IST Lisbon</small></p>
       </div>
       <div class="col-xs-12 col-sm-4">
-        <div><img src="img/dim.png"></div>
+        <div id="my_image"><img src="img/dim.png" width="120" height="120"></div>
       </div>
     </div>
   </div>
@@ -28,11 +28,11 @@
           </div>
           <div class="navbar-collapse collapse sidebar-navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a role="button" href="#aboutMe" data-toggle="collapse" aria-controls="aboutMe" aria-expanded="true">About</a></li>
-              <li><a role="button" href="#activities" data-toggle="collapse" aria-contrlos="activities" aria-expanded="false">Current activities</a></li>
-              <li><a role="button" href="#projects" data-toggle="collapse" aria-controls="projects" aria-expanded="false">Projects</a></li>
-              <li><a role="button" href="#past"data-toggle="collapse" aria-controls="projects" aria-expanded="false">Past</a></li>
-              <li><a role="button" href="#other" data-toggle="collapse" aria-controls="projects" aria-expanded="false">Other</a></li>
+              <li id="about_button"><a role="button" href="#aboutMe" data-toggle="collapse" aria-controls="aboutMe" aria-expanded="true">About</a></li>
+              <li><a id="act_button" role="button" href="#activities" data-toggle="collapse" aria-contrlos="activities" aria-expanded="false">Current activities</a></li>
+              <li><a id="proj_button" role="button" href="#projects" data-toggle="collapse" aria-controls="projects" aria-expanded="false">Projects</a></li>
+              <li><a id="past_button" role="button" href="#past" data-toggle="collapse" aria-controls="past" aria-expanded="false">Past</a></li>
+              <li><a id="other_button" role="button" href="#other" data-toggle="collapse" aria-controls="other" aria-expanded="false">Other</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -41,15 +41,15 @@
     <div class="col-sm-9">
       <div class="row row-content">
         <div class="col-xs-12 col-sm-9 col-sm-push-2">
-          <div class="collapse in" id="aboutMe">
+          <div class="collapse in sections" id="aboutMe">
             <h2>About Me</h2>
             <div class="longTextFont"><?=$about?></div>
           </div>
-          <div class="collapse" id="activities">
+          <div class="collapse sections" id="activities">
             <h2>Current Activities</h2>
             <div class="longTextFont"><?=$activities?></div>
           </div>
-          <div class="collapse" id="projects">
+          <div class="collapse sections" id="projects">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="neuralNetwork">
@@ -81,12 +81,12 @@
               </div>
             </div>
           </div>
-          <div class="collapse" id="past">
+          <div class="collapse sections" id="past">
             <h2>Past</h2>
             <div class="longTextFont"><?=$past?></div>
           </div>
-          <div class="collapse" id="other">
-            <h2>Other</h2>
+          <div class="collapse sections" id="other">
+            <h2>Other Interests</h2>
             <div class="longTextFont"><?=$other?></div>
           </div>
         </div>
@@ -94,6 +94,5 @@
     </div>
   </div>
 </div>
-<script type="text/javascript" src="js/collapse_from_navbar.js"></script>
 
     
