@@ -2,7 +2,7 @@
 
 require_once("../utils/functions.php");
 
-$about = "<p>Hello! As you might have noticed I am a computer science student! Perhaps, even more 
+$about = "<p>Hello! As you might have noticed I am studying computer science! Perhaps, even more 
 		  characterizing, I should say that I love to code!</p>
 
 		  <p>Like a lot of people, I am right now really interested in 
