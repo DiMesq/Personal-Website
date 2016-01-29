@@ -49,6 +49,9 @@
           </div><!--/.nav-collapse -->
         </div>
       </div>
+      <div id="resume_button">
+        <a href="pdfs/DiogoMesquitaCV.pdf" class="my-btn-shape my-btn" role="button" target="_blank"><i class="fa fa-download"></i> Resume</a>
+      </div>
     </div>
     <div class="col-sm-9">
       <div class="row row-content">
@@ -64,20 +67,6 @@
           <div class="collapse sections" id="projects">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
               <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="neuralNetwork">
-                    <h3 class="panel-title">
-                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#neuralnet" aria-expanded="false" aria-controls="neuralnet">
-                          Multi-purpose ANN <small>Applied in digit recognition</small>
-                        </a>
-                    </h3>
-                </div>
-                <div role="tabpanel" class="panel-collapse collapse" id="neuralnet" aria-labelledby="neuralNetwork">
-                    <div class="panel-body">
-                        <p> Whaaaat</p>
-                    </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="plataformaJuni">
                     <h3 class="panel-title">
                         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#plataforma" aria-expanded="false" aria-controls="plataforma">
@@ -86,8 +75,27 @@
                     </h3>
                 </div>
                 <div role="tabpanel" class="panel-collapse collapse" id="plataforma" aria-labelledby="plataformaJuni">
-                    <div class="panel-body">
-                        <p> Whaaaat</p>
+                    <div class="panel-body longTextFont">
+                        <p>I am part of a team developing a web application for 3D printing as a service.</p>
+                        <p>This is a <a href="http://junitec.ist.utl.pt/" target="_blank">Junitec</a> project and it is really close to being released.</p>
+                        <p><a href="http://51.254.215.163" target="_blank">Here</a> you can take a peek at the almost final version.</p>
+
+                    </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="neuralNetwork">
+                    <h3 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#neuralnet" aria-expanded="false" aria-controls="neuralnet">
+                          General-purpose Artificial Neural Network <small>Applied in digit recognition</small>
+                        </a>
+                    </h3>
+                </div>
+                <div role="tabpanel" class="panel-collapse collapse" id="neuralnet" aria-labelledby="neuralNetwork">
+                    <div class="panel-body longTextFont">
+                        <p> Recently I coded a general-purposed Neural Network from scratch.</p> 
+                            <p>I then went to apply it to the Kaggle's <a href="https://www.kaggle.com/c/digit-recognizer" target="_blank">Digit Recognizer Competition</a>. 
+                            You can check the code <a href="https://github.com/DiMesq/DigitRecognizer_kaggle" target="_blank">here</a>.</p>
                     </div>
                 </div>
               </div>
