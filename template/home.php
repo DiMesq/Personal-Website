@@ -43,7 +43,7 @@
             <ul class="nav navbar-nav">
               <li id="about_button"><a role="button" href="#aboutMe" data-toggle="collapse" aria-controls="aboutMe" aria-expanded="true">About Me</a></li>
               <li><a id="act_button" role="button" href="#activities" data-toggle="collapse" aria-contrlos="activities" aria-expanded="false">Current Activities</a></li>
-              <li><a id="past_button" role="button" href="#past" data-toggle="collapse" aria-controls="past" aria-expanded="false">Past</a></li>
+              <li><a id="past_button" role="button" href="#past" data-toggle="collapse" aria-controls="past" aria-expanded="false">Past Experience</a></li>
               <li><a id="proj_button" role="button" href="#projects" data-toggle="collapse" aria-controls="projects" aria-expanded="false">Projects</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -150,7 +150,7 @@
             </div>
           </div>
           <div class="collapse sections" id="past">
-            <h2>Past</h2>
+            <h2>Past Experience</h2>
             <div class="longTextFont"><?=$past?></div>
           </div>
         </div>
