@@ -76,9 +76,9 @@
                 </div>
                 <div role="tabpanel" class="panel-collapse collapse" id="plataforma" aria-labelledby="plataformaJuni">
                     <div class="panel-body longTextFont">
-                        <p>I am part of a team developing a web application for 3D printing as a service.</p>
+                        <p>I am part of a team developing this web application for 3D printing as a service.</p>
                         <p>This is a <a href="http://junitec.ist.utl.pt/" target="_blank">Junitec</a> project and it is really close to being released.</p>
-                        <p><a href="http://51.254.215.163" target="_blank">Here</a> you can take a peek at the almost final version.</p>
+                        <p><a href="http://51.254.215.163" target="_blank">Here</a> you can take a peek at the current version.</p>
 
                     </div>
                 </div>
@@ -93,9 +93,57 @@
                 </div>
                 <div role="tabpanel" class="panel-collapse collapse" id="neuralnet" aria-labelledby="neuralNetwork">
                     <div class="panel-body longTextFont">
-                        <p> Recently I coded a general-purposed Neural Network from scratch.</p> 
-                            <p>I then went to apply it to the Kaggle's <a href="https://www.kaggle.com/c/digit-recognizer" target="_blank">Digit Recognizer Competition</a>. 
+                        <p> A general-purposed Neural Network written from scratch.</p> 
+                            <p>I applied it to the Kaggle's <a href="https://www.kaggle.com/c/digit-recognizer" target="_blank">Digit Recognizer Competition</a>. 
                             You can check the code <a href="https://github.com/DiMesq/DigitRecognizer_kaggle" target="_blank">here</a>.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="documentText">
+                    <h3 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#documentApp" aria-expanded="false" aria-controls="documentApp">
+                          Text Document App <small>Local application</small>
+                        </a>
+                    </h3>
+                </div>
+                <div role="tabpanel" class="panel-collapse collapse" id="documentApp" aria-labelledby="documentText">
+                    <div class="panel-body longTextFont">
+                        <p>This app allows you to create, edit and manage text Documents.</p> 
+                        <p>This was a course project for the Object-Oriented Programming class.</p>
+                        <p>You can find more about it <a href="https://github.com/DiMesq/Projeto-PO" target="_blank">here</a>.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="noteBookApp">
+                    <h3 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#noteBook" aria-expanded="false" aria-controls="noteBook">
+                          Note Book App <small>Web based application</small>
+                        </a>
+                    </h3>
+                </div>
+                <div role="tabpanel" class="panel-collapse collapse" id="noteBook" aria-labelledby="noteBookApp">
+                    <div class="panel-body longTextFont">
+                        <p>In this note taking app each Note that you take follows a certain Type created by you.
+                            This means that every Note of the same theme will have the same structure.</p> 
+                        <p>This app was part of the final project for the Databases class.</p>
+                        <p>Find out more about this project <a href="https://github.com/DiMesq/BD-PROJETO" target="_blank">here</a>.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="ticTacToe">
+                    <h3 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#tic" aria-expanded="false" aria-controls="tic">
+                          Tic Tac Toe: Human vs CPU <small>Local application</small>
+                        </a>
+                    </h3>
+                </div>
+                <div role="tabpanel" class="panel-collapse collapse" id="tic" aria-labelledby="ticTacToe">
+                    <div class="panel-body longTextFont">
+                        <p>A user plays Tic Tac Toe against a Tic Tac Toe playing agent.</p> 
+                        <p>Find out more about this project <a href="https://github.com/DiMesq/AI-TicTacToe" target="_blank">here</a>.</p>
                     </div>
                 </div>
               </div>
