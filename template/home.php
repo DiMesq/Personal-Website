@@ -1,27 +1,29 @@
 <header class="jumbotron">
   <div class="container">
     <div class="row row-header center">
-      <div class="col-xs-12 col-sm-8 col-sm-offset-4">
-        <h1><div id="name"> Diogo Mesquita</div></h1>
-        <div class="row">
-          <div id="social" class="col-sm-8 col-sm-offset-1">
-              <p><small>Computer Science student @IST Lisbon</small></p>
-              <div class="row">
-                <div class="col-sm-offset-1">
-                  <ul>
-                    <li><a href="mailto:d.mesquita285@gmail.com" target="_blank"><i class="fa fa-envelope fa-lg"></i></a></li>
-                    <li><a href="https://github.com/DiMesq" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
-                    <li><a href="https://www.facebook.com/diogo.mesquita.31" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
-                  </ul>
+      <div class="col-xs-12">
+        <div id="header">
+          <h1><div id="name"> Diogo Mesquita</div></h1>
+          <div class="row">
+            <div id="social" class="col-sm-8 col-sm-offset-1">
+                <p><small>Computer Science student @IST Lisbon</small></p>
+                <div class="row">
+                  <div class="col-sm-offset-1">
+                    <ul>
+                      <li><a href="mailto:d.mesquita285@gmail.com" target="_blank"><i class="fa fa-envelope fa-lg"></i></a></li>
+                      <li><a href="https://github.com/DiMesq" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                      <li><a href="https://www.facebook.com/diogo.mesquita.31" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
+            </div>
+            <div class="col-sm-3"></div>
           </div>
-          <div class="col-sm-3"></div>
         </div>
+        <!--<div class="col-xs-12 col-sm-4">
+          <div id="my_image"><img src="img/dim.png" width="120" height="120"></div>
+        </div>-->
       </div>
-      <!--<div class="col-xs-12 col-sm-4">
-        <div id="my_image"><img src="img/dim.png" width="120" height="120"></div>
-      </div>-->
     </div>
   </div>
 </header>

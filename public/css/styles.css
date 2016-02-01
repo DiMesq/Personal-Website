@@ -17,6 +17,10 @@ small{
 #social a{
   color: floralwhite;
 }
+
+#header{
+  text-align: center;
+}
 #name{
   font-size: 0.7em;
   text-shadow: 0.3px 0.3px 0.6px #000000
