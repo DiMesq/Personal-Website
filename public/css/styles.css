@@ -1,9 +1,18 @@
+/* generic */
 body{
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 }
 
 small{
   font-size: 0.5em;
+}
+
+/* header */ 
+.jumbotron{
+  color: floralwhite;
+  background-color:#247ba0;
+  opacity: 1;
+  font-family: 'Glegoo', serif;
 }
 
 #social ul{
@@ -27,14 +36,29 @@ small{
   text-shadow: 0.3px 0.3px 0.6px #000000
 }
 
+/* content */ 
 #my_image img{
-  border-radius: 60px;
   border-style: inset;
   -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.7);
   -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .7);
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .7);
+  float: right;
+  margin: 0 0 10px 10px;
 }
 
+.justifyText p{
+  text-align: justify;
+}
+
+.longTextFont{
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+#box{
+  margin-bottom: 20px;
+}
+
+/* personalized button - resume */
 #resume_button{
   width: 50%;
   position: relative;
@@ -46,11 +70,6 @@ small{
   color: floralwhite;
 }
 
-.center{
-  position: relative;
-  width: 80%;
-  margin: auto;
-}
 
 .my-btn{
   color:#333;
@@ -92,21 +111,4 @@ small{
     padding-top: 12px;
     padding-bottom: 12px;
   }
-}
-
-.jumbotron{
-  color: floralwhite;
-	background-color:#247ba0;
-	opacity: 1;
-  font-family: 'Glegoo', serif;
-}
-
-.justifyText p{
-
-  text-align: justify;
-
-}
-
-.longTextFont{
-	font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }

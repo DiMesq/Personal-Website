@@ -1,6 +1,6 @@
 <header class="jumbotron">
   <div class="container">
-    <div class="row row-header center">
+    <div class="row row-header">
       <div class="col-xs-12">
         <div id="header">
           <h1><div id="name"> Diogo Mesquita</div></h1>
@@ -22,9 +22,6 @@
             <div class="col-sm-2"></div>
           </div>
         </div>
-        <!--<div class="col-xs-12 col-sm-4">
-          <div id="my_image"><img src="img/dim.png" width="120" height="120"></div>
-        </div>-->
       </div>
     </div>
   </div>
@@ -61,8 +58,12 @@
       <div class="row row-content">
         <div class="col-xs-12 col-sm-9 col-sm-push-2">
           <div class="collapse in sections" id="aboutMe">
-            <h2>About Me</h2>
-            <div class="longTextFont justifyText"><p><?=$about?></p></div>
+              <div id="box">
+                  <h2>About Me</h2>
+              </div>
+              <div class="longTextFont justifyText">
+                <p><div id="my_image"><img src="img/me.jpg" alt="DiogoMesquita" width="86" height="120"></div><?=$about?></p>
+              </div>
           </div>
           <div class="collapse sections" id="activities">
             <h2>Current Activities</h2>
