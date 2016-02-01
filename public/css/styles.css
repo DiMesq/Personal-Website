@@ -1,9 +1,18 @@
+/* generic */
 body{
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 }
 
 small{
-  font-size: 0.6em;
+  font-size: 0.5em;
+}
+
+/* header */ 
+.jumbotron{
+  color: floralwhite;
+  background-color:#247ba0;
+  opacity: 1;
+  font-family: 'Glegoo', serif;
 }
 
 #social ul{
@@ -12,25 +21,44 @@ small{
 
 #social li{
   display: inline;
-  padding-right: 10px; 
+  padding-right: 25px; 
 }
 #social a{
-  color: black;
+  color: floralwhite;
 }
+
+#header{
+  text-align: center;
+}
+
 #name{
-  font-size: 0.8em;
-  font-family: 'Glegoo', serif;
+  font-size: 0.7em;
   text-shadow: 0.3px 0.3px 0.6px #000000
 }
 
+/* content */ 
 #my_image img{
-  border-radius: 60px;
   border-style: inset;
   -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.7);
   -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .7);
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .7);
+  float: right;
+  margin: 0 0 10px 10px;
 }
 
+.justifyText p{
+  text-align: justify;
+}
+
+.longTextFont{
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+#box{
+  margin-bottom: 20px;
+}
+
+/* personalized button - resume */
 #resume_button{
   width: 50%;
   position: relative;
@@ -38,31 +66,31 @@ small{
   padding-top: 50px;
 }
 
-.center{
-  position: relative;
-  width: 80%;
-  margin: auto;
+#resume_button a{
+  color: floralwhite;
 }
+
 
 .my-btn{
   color:#333;
-  background-color:#ac3939;
+  background-color:#247ba0;
   border-color:#732626
 }
 
 .my-btn.focus,.my-btn:focus{
   color:#333;
-  background-color:#993333;
+  background-color:#247b69;
   border-color:#4d1919
 }
 
 .my-btn:hover{
   color:#333;
-  background-color:#993333;
+  background-color:#247b69;
   border-color:#4d1919
 }
 
 .my-btn-shape{display:inline-block;padding:14px 24px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px}
+
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
@@ -83,14 +111,4 @@ small{
     padding-top: 12px;
     padding-bottom: 12px;
   }
-}
-
-.jumbotron{
-	background-color:#993333;
-	opacity: 1;
-  color: black;
-}
-
-.longTextFont{
-	font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
