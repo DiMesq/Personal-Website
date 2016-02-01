@@ -21,6 +21,7 @@ small{
 #header{
   text-align: center;
 }
+
 #name{
   font-size: 0.7em;
   text-shadow: 0.3px 0.3px 0.6px #000000
@@ -44,6 +45,7 @@ small{
 #resume_button a{
   color: floralwhite;
 }
+
 .center{
   position: relative;
   width: 80%;
@@ -69,6 +71,7 @@ small{
 }
 
 .my-btn-shape{display:inline-block;padding:14px 24px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px}
+
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
@@ -96,6 +99,12 @@ small{
 	background-color:#247ba0;
 	opacity: 1;
   font-family: 'Glegoo', serif;
+}
+
+.justifyText p{
+
+  text-align: justify;
+
 }
 
 .longTextFont{

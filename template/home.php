@@ -5,10 +5,11 @@
         <div id="header">
           <h1><div id="name"> Diogo Mesquita</div></h1>
           <div class="row">
-            <div id="social" class="col-sm-8 col-sm-offset-1">
+            <div class="col-sm-8 col-sm-offset-2">
+              <div id="social">
                 <p><small>Computer Science student @IST Lisbon</small></p>
                 <div class="row">
-                  <div class="col-sm-offset-1">
+                  <div class="col-xs-12">
                     <ul>
                       <li><a href="mailto:d.mesquita285@gmail.com" target="_blank"><i class="fa fa-envelope fa-lg"></i></a></li>
                       <li><a href="https://github.com/DiMesq" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
@@ -16,8 +17,9 @@
                     </ul>
                   </div>
                 </div>
+              </div>
             </div>
-            <div class="col-sm-3"></div>
+            <div class="col-sm-2"></div>
           </div>
         </div>
         <!--<div class="col-xs-12 col-sm-4">
@@ -60,11 +62,11 @@
         <div class="col-xs-12 col-sm-9 col-sm-push-2">
           <div class="collapse in sections" id="aboutMe">
             <h2>About Me</h2>
-            <div class="longTextFont"><?=$about?></div>
+            <div class="longTextFont justifyText"><p><?=$about?></p></div>
           </div>
           <div class="collapse sections" id="activities">
             <h2>Current Activities</h2>
-            <div class="longTextFont"><?=$activities?></div>
+            <div class="longTextFont justifyText"><p><?=$activities?></p></div>
           </div>
           <div class="collapse sections" id="projects">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
@@ -153,7 +155,7 @@
           </div>
           <div class="collapse sections" id="past">
             <h2>Past Experience</h2>
-            <div class="longTextFont"><?=$past?></div>
+            <div class="longTextFont justifyText"><p><?=$past?></p></div>
           </div>
         </div>
       </div>
